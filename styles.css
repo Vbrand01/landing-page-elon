@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/elons.png);
+    background-repeat: no-repeat; 
+    background-position: 768px 0px;
+    width: 100% !important;
+
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    color: white;
+    background: url(img/elons.png) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-size: cover;   
+}
+
+.card{
+    padding: 30px;
+    border: none;
+    background: rgba(76, 219, 128, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba(64, 176, 81, 0.18);
+}
+
+.bto{
+    background-color: rgb(77, 255, 0);
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
